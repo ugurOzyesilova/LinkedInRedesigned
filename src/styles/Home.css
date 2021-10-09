@@ -1,0 +1,21 @@
+.home {
+  width: 88vw;
+  height: 100vh;
+}
+
+.home__sections {
+  display: flex;
+  padding-top: 10vh;
+  height: 90vh;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .home__sections {
+    flex-direction: column;
+    padding-top: 5vh;
+    align-items: center;
+  }
+
+}

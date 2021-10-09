@@ -1,0 +1,44 @@
+.postsender {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    height: 17.5vh;
+    background: #262d37;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.postsender__content {
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.postsender input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    background: none;
+    color: #fff;
+}
+
+
+.postsender button {
+    height: 25%;
+    color: #fff;
+    border: none;
+    background: #0197d2;
+    font-weight: 600;
+    border-radius: 0 0 6px 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',  'Oxygen',
+        'Fira Sans',
+        sans-serif;
+
+}

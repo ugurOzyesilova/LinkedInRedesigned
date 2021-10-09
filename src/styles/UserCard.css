@@ -1,0 +1,90 @@
+.usercard {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  min-height: 40vh;
+  width: 15vw;
+  min-width: 300px;
+}
+
+.usercard__main {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  height: 70%;
+  margin-bottom: 5vh;
+  background: #303741;
+  border-radius: 6px;
+}
+
+.usercard__upper {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.usercard__upper>h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #dbd3d3;
+}
+
+.usercard__upper>div {
+  display: flex;
+  align-items: center;
+  color: #dbd3d3;
+}
+
+.usercard__upper>span {
+  color: #8c9096;
+}
+
+.usercard__info {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.usercard__info>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 14vh;
+  color: #8c9096;
+
+  box-shadow: 4px 2px 3px -2px rgba(0, 0, 0, 0.12);
+}
+
+.usercard__info>div>span {
+  color: #dbd3d3;
+}
+
+.usercard__actions {
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+
+}
+
+.usercard__actions>div {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  background: #303741;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.usercard__actions div span {
+  color: #dbd3d3;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .usercard {
+    display: none;
+  }
+}
